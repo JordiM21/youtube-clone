@@ -35,8 +35,9 @@ a {
 }
 
 .react-player {
-	height: 77vh !important;
-	width: 100% !important;
+	height: 65vh !important;
+	width: 95% !important;
+	margin: auto;
 }
 
 .search-bar {

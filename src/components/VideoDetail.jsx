@@ -119,12 +119,13 @@ const VideoDetail = () => {
 				</Box>
 				{/* RELATED VIDEOS CONTAINER */}
 				<Box
-					sx={{}}
+					marginX="auto"
 					px={2}
 					py={{ md: 1, xs: 5 }}
 					justifyContent="center"
-					alignItems={"center"}
+					alignItems="center"
 				>
+				<Typography fontSize={"25px"} borderRadius={"10px"} bgcolor={"#262628"} p={"10px"} marginY={"20px"} color={"white"}>Related Videos</Typography>
 					<Videos
 						videos={videos}
 						direction="column"

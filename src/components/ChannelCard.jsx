@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 import { demoProfilePicture } from "../utils/constants";
 
 const ChannelCard = ({ channelDetail, marginTop }) => {
+
+	if(!channelDetail) return 'Loading...'
+
+	
 	const { snippet } = channelDetail;
 
 	return (
